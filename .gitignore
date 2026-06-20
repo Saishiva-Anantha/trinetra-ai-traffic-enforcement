@@ -1,0 +1,41 @@
+# Virtual environment
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Model weights (large files)
+models/*.pt
+models/*.onnx
+*.pt
+*.onnx
+
+# Videos (large files)
+videos/*.mp4
+videos/*.avi
+videos/*.mov
+*.mp4
+*.avi
+*.mov
+
+# Outputs — ignore ALL contents, including subfolders
+outputs/**
+
+# But keep folder structure visible on GitHub
+!outputs/.gitkeep
+
+# Logs
+logs/*.log
+logs/*.db
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
