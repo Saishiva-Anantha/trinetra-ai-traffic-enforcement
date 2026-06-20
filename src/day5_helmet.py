@@ -7,11 +7,13 @@ from collections import defaultdict, deque
 
 # ── Config ───────────────────────────────────────────
 MODEL_PATH  = r"D:\shiva\Projects\TRINETRA\models\yolov8s.pt"
-VIDEO_PATH  = r"D:\shiva\Projects\TRINETRA\videos\test_traffic.mp4"
+VIDEO_PATH  = r"D:\shiva\Projects\TRINETRA\videos\helmate_test_traffic.mp4"
 
 TARGET_CLASSES = [0, 2, 3, 5, 7]
 CLASS_NAMES    = {0:"Person", 2:"Car",
                   3:"Motorcycle", 5:"Bus", 7:"Truck"}
+
+
 
 # ── Thresholds ───────────────────────────────────────
 HELMET_HEAD_ZONE    = 0.45   # top 45% of moto box = head zone
